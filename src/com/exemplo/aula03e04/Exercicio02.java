@@ -32,8 +32,8 @@ public class Exercicio02 {
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        for (int i = 0; i < numeros.length; i++) {
-            stringBuilder.append((char) numeros[i]);
+        for (int numero : numeros) {
+            stringBuilder.append((char) numero);
         }
 
         System.out.println(stringBuilder);
